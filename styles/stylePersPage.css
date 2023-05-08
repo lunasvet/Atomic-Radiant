@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Gotham Pro;
+    src: url("../fonts/gothampro.ttf");
+}
+
+@font-face {
+    font-family: Gotham Pro-Medium;
+    src: url("../fonts/gothampro_medium.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Gotham Pro-Bold;
+    src: url("../fonts/gothampro_bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: Monserrat-Medium;
+    src: url("../fonts/Montserrat-Medium.ttf");
+}
+.backgroundGradient{
+    position: relative;
+}
+.backgroundTrees{
+    position: absolute;
+    top: -0.5px;
+}
+.header-main{
+    position: absolute;
+    top: 1px;
+}
+.header{
+    position: absolute;
+}
+.logo{
+    display: flex;
+    position: absolute;
+    top: 38px;
+    margin-left: 111px;
+}
+.head-button ul {
+    margin-left: 130.76px;
+    list-style: none;
+    display: flex;
+    top: 43px;
+    color: #000000;
+}
+
+.head-button a:hover {
+    color: #9747FF;
+}
+
+.menu-item {
+    position: relative;
+    margin-right: 27px;
+    top: 10px;
+    font-family: Monserrat;
+    font-size: 24px;
+    width: 201px;
+    height: 29px;
+    background: transparent;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #000000;
+}
